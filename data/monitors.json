@@ -1,0 +1,52 @@
+{
+  "monitors": [
+    {
+      "name": "Censys",
+      "url": "https://censys.io/certificates",
+      "description": "",
+      "logo": "censys.png"
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://blog.cloudflare.com/introducing-certificate-transparency-monitoring/",
+      "description": "Get an email every time a certificate is issued for one of your monitored domains.",
+      "logo": "cloudflare.svg"
+    },
+    {
+      "name": "Digicert",
+      "url": "https://docs.digicert.com/certificate-tools/ct-log-monitoring-service",
+      "description": "",
+      "logo": "digicert.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://developers.facebook.com/tools/ct/search/",
+      "description": "Get a Facebook notification or Webhook callback every time a certificate is issued for one of your monitored domains.",
+      "logo": "facebook_nocrop.png"
+    },
+    {
+      "name": "EZMonitor",
+      "url": "https://www.keytos.io/ezmonitor_overview.html",
+      "description": "Proactively monitor the health of your SSL certificates and endpoints. Get notified before a problem occurs.",
+      "logo": "Keytos.svg"
+    },
+    {
+      "name": "Hardenize",
+      "url": "https://www.hardenize.com/product/ct",
+      "description": "Comprehensive network infrastructure discovery and monitoring, with focus on PKI and Certificate Transparency.",
+      "logo": "hardenize.svg"
+    },
+    {
+      "name": "SSLMate",
+      "url": "https://sslmate.com/certspotter/",
+      "description": "Monitor domains for expiring and unauthorized SSL certificates and get notified if there’s a problem.",
+      "logo": "sslmate.svg"
+    },
+    {
+      "name": "Report URI",
+      "url": "https://report-uri.com/products/certificate_transparency_monitoring",
+      "description": "Receive notifications when certificates are issued for any of your domains.",
+      "logo": "report-uri.svg"
+    }
+  ]
+}

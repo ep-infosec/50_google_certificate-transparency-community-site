@@ -1,0 +1,48 @@
+{{/* 
+  Copyright 2020 Google LLC
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      https://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+*/}}
+
+<div id="footer">
+  <div class='row'>
+    <h3>Certificate Transparency</h3>
+    <ul class="footer-menu">
+      <li><a href='{{ "/howctworks" | relURL}}' title="How Certificate Transparency works">How CT works</a></li>
+      <li><a href='{{ "/community" | relURL}}' title="Story of Certificate Transparency">Our story</a></li>
+    </ul>
+  </div>
+  <div class="row rev">
+    <ul class='footer-menu'>
+      <li>
+        <ul>
+          <li><a href='{{ "/logs" | relURL}}' title="Certificate Transparency Logs">Logs</a></li>
+          <li><a href='{{ "/monitors" | relURL}}' title="Certificate Transparency Monitors">Monitors</a></li>
+          <li><a href='{{ "/useragents" | relURL}}' title="Certificate Transparency User Agents">User agents</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a href="{{ .Site.Params.githubUrl }}" title="Certificate Transparency Github">GitHub</a></li>
+          <li><a href="{{ .Site.Params.googlegroup}}" title="Certificate Transparency Google Group">Google Group</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class='tag'>
+      <span>
+        Started by engineers at Google,<br>
+        <strong>for the internet.</strong>
+      </span>
+    </div>
+  </div>
+</div>
